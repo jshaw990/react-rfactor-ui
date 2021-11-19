@@ -1,3 +1,5 @@
+@import '../../index.scss';
+
 .header {
 	height: 50px;
 	display: flex;
@@ -5,27 +7,24 @@
 	justify-content: space-between;
 	margin: 0 auto;
 	padding: 10px 25px;
-	background-color: #eaeaea;
+	background-color: $lightgray1;
 	font-weight: 700;
-    .item {
-        padding: 0 15px;
-        cursor: pointer;
-        &:hover {
-            color: red;
-            text-decoration: underline;
-        }
-    }
-	.logo {
-		height: 50px;
-	}
-	.left {
+	.side {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-	}
-	.right {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
+		.logo {
+			height: 50px;
+			width: auto;
+		}
+		.item {
+			cursor: pointer;
+			padding: 0 15px;
+			height: 50px;
+			line-height: 50px;
+			&:hover {
+				color: $blue1;
+			}
+		}
 	}
 }

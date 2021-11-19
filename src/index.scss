@@ -1,4 +1,34 @@
+$white1: #FFFFFF;
+$dark1: #253038;
+$lightgray1: #EAEAEA;
+$red1: #FF2F00;
+$blue1: #00C3EF;
+
+$blue2: #2569BE;
+$red2: #ED1E24;
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat-Bold.ttf');
+    font-weight: 700;
+}
+
 body {
     margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
