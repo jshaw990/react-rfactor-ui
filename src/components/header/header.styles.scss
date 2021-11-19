@@ -1,0 +1,31 @@
+.header {
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 10px 25px;
+	background-color: #eaeaea;
+	font-weight: 700;
+    .item {
+        padding: 0 15px;
+        cursor: pointer;
+        &:hover {
+            color: red;
+            text-decoration: underline;
+        }
+    }
+	.logo {
+		height: 50px;
+	}
+	.left {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.right {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+}
